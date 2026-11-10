@@ -85,7 +85,16 @@ jobs:
 
           added=$(git diff --cached --numstat -- 'data/ci/**/failures.jsonl' \
                   | awk '{s+=$1} END {print s+0}')
-          git commit -m "data: collect ${added} new CI failure records"
+
+          # Most runs add no failures but do settle jobs, which is still worth
+          # recording: it is what stops those jobs being refetched. Say which
+          # of the two happened rather than reporting "0 records" either way.
+          if [ "$added" -gt 0 ]; then
+            msg="data: collect ${added} new CI failure records"
+          else
+            msg="data: no new failures; record jobs attempted"
+          fi
+          git commit -m "$msg"
           # The schedule can overlap a human push; rebase rather than fail.
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
