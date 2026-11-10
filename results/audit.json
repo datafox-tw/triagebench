@@ -1,0 +1,156 @@
+[
+  {
+    "project": "cassandra",
+    "tracker": "jira",
+    "reports": 4612,
+    "symmetry": {
+      "raw_rows": 292,
+      "directed_links": 296,
+      "unordered_pairs": 164,
+      "symmetric_links": 132,
+      "symmetric_share": 0.8048780487804879,
+      "dropped_unknown_id": 0
+    },
+    "split_leak": {
+      "train_rows": 233,
+      "test_rows": 59,
+      "train_links": 153,
+      "test_links": 54,
+      "leaked_links": 43,
+      "leak_share": 0.7962962962962963
+    },
+    "temporal": {
+      "evaluable_queries": 296,
+      "skipped_missing_timestamp": 0,
+      "future_gold_queries": 145,
+      "future_gold_share": 0.48986486486486486,
+      "median_gap_days": 31.707291666666666
+    }
+  },
+  {
+    "project": "hadoop",
+    "tracker": "jira",
+    "reports": 2503,
+    "symmetry": {
+      "raw_rows": 126,
+      "directed_links": 127,
+      "unordered_pairs": 66,
+      "symmetric_links": 61,
+      "symmetric_share": 0.9242424242424242,
+      "dropped_unknown_id": 0
+    },
+    "split_leak": {
+      "train_rows": 100,
+      "test_rows": 26,
+      "train_links": 61,
+      "test_links": 24,
+      "leaked_links": 19,
+      "leak_share": 0.7916666666666666
+    },
+    "temporal": {
+      "evaluable_queries": 127,
+      "skipped_missing_timestamp": 0,
+      "future_gold_queries": 63,
+      "future_gold_share": 0.49606299212598426,
+      "median_gap_days": 47.891666666666666
+    }
+  },
+  {
+    "project": "hbase",
+    "tracker": "jira",
+    "reports": 5403,
+    "symmetry": {
+      "raw_rows": 107,
+      "directed_links": 111,
+      "unordered_pairs": 61,
+      "symmetric_links": 50,
+      "symmetric_share": 0.819672131147541,
+      "dropped_unknown_id": 0
+    },
+    "split_leak": {
+      "train_rows": 85,
+      "test_rows": 22,
+      "train_links": 57,
+      "test_links": 22,
+      "leaked_links": 18,
+      "leak_share": 0.8181818181818182
+    },
+    "temporal": {
+      "evaluable_queries": 111,
+      "skipped_missing_timestamp": 0,
+      "future_gold_queries": 52,
+      "future_gold_share": 0.46846846846846846,
+      "median_gap_days": 53.03194444444444
+    }
+  },
+  {
+    "project": "spark",
+    "tracker": "jira",
+    "reports": 20275,
+    "symmetry": {
+      "raw_rows": 496,
+      "directed_links": 500,
+      "unordered_pairs": 269,
+      "symmetric_links": 231,
+      "symmetric_share": 0.8587360594795539,
+      "dropped_unknown_id": 0
+    },
+    "split_leak": {
+      "train_rows": 396,
+      "test_rows": 100,
+      "train_links": 247,
+      "test_links": 88,
+      "leaked_links": 66,
+      "leak_share": 0.75
+    },
+    "temporal": {
+      "evaluable_queries": 500,
+      "skipped_missing_timestamp": 0,
+      "future_gold_queries": 247,
+      "future_gold_share": 0.494,
+      "median_gap_days": 18.87673611111111
+    }
+  },
+  {
+    "project": "thunderbird",
+    "tracker": "bugzilla",
+    "reports": 15192,
+    "symmetry": {
+      "raw_rows": 4288,
+      "directed_links": 5435,
+      "unordered_pairs": 3460,
+      "symmetric_links": 1975,
+      "symmetric_share": 0.5708092485549133,
+      "dropped_unknown_id": 1485
+    },
+    "split_leak": null,
+    "temporal": {
+      "evaluable_queries": 3950,
+      "skipped_missing_timestamp": 0,
+      "future_gold_queries": 1974,
+      "future_gold_share": 0.499746835443038,
+      "median_gap_days": 28.600347222222222
+    }
+  },
+  {
+    "project": "vscode",
+    "tracker": "github",
+    "reports": 32828,
+    "symmetry": {
+      "raw_rows": 9238,
+      "directed_links": 12518,
+      "unordered_pairs": 8645,
+      "symmetric_links": 3873,
+      "symmetric_share": 0.4480046269519954,
+      "dropped_unknown_id": 8274
+    },
+    "split_leak": null,
+    "temporal": {
+      "evaluable_queries": 605,
+      "skipped_missing_timestamp": 0,
+      "future_gold_queries": 267,
+      "future_gold_share": 0.4413223140495868,
+      "median_gap_days": 26.520416666666666
+    }
+  }
+]

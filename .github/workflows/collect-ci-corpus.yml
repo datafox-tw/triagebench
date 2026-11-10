@@ -1,0 +1,81 @@
+# Continuous collection of the Layer-2 CI failure corpus.
+#
+# GitHub Actions log retention is short and set per repository: of 600 pytorch
+# DISABLED issues reaching back five months, only 43 still had a downloadable
+# log. Whatever is not collected within the retention window is gone for good,
+# so the corpus cannot be built in one shot -- it has to be harvested on a
+# schedule and committed back.
+#
+# The collector is pure standard library, so this job needs no dependencies
+# and finishes in well under a minute of compute.
+
+name: collect-ci-corpus
+
+on:
+  schedule:
+    # Daily. Logs expire far faster than they are produced, so the only cost of
+    # running often is API quota, and the cost of running rarely is lost data.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: "Repository to harvest flaky-test issues from"
+        default: "pytorch/pytorch"
+      issues:
+        description: "How many DISABLED issues to scan"
+        default: "600"
+      max_jobs:
+        description: "Cap on log downloads this run"
+        default: "120"
+
+permissions:
+  contents: write
+
+# Never let two collections race on the same corpus file.
+concurrency:
+  group: collect-ci-corpus
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect new CI failures
+        env:
+          # The default GITHUB_TOKEN is scoped to this repository. Reading
+          # another repository's Actions logs may need a PAT with public_repo;
+          # add it as COLLECTOR_TOKEN and this picks it up automatically.
+          GITHUB_TOKEN: ${{ secrets.COLLECTOR_TOKEN || github.token }}
+          REPO: ${{ github.event.inputs.repo || 'pytorch/pytorch' }}
+          ISSUES: ${{ github.event.inputs.issues || '600' }}
+          MAX_JOBS: ${{ github.event.inputs.max_jobs || '120' }}
+        run: |
+          python scripts/build_ci_dataset.py \
+            --repo "$REPO" \
+            --issues "$ISSUES" \
+            --max-jobs "$MAX_JOBS" \
+            --workers 6
+
+      - name: Commit the corpus if it grew
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ci
+          if git diff --cached --quiet; then
+            echo "no new records; nothing to commit"
+            exit 0
+          fi
+          added=$(git diff --cached --numstat -- '*.jsonl' | awk '{s+=$1} END {print s+0}')
+          git commit -m "data: collect ${added} new CI failure records"
+          # The schedule can overlap a human push; rebase rather than fail.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

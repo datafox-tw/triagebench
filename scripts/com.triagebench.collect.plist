@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+  Template. __REPO_DIR__ is substituted at install time so that no absolute
+  path from one machine is committed:
+
+    sed "s|__REPO_DIR__|$PWD|g" scripts/com.triagebench.collect.plist \
+      > ~/Library/LaunchAgents/com.triagebench.collect.plist
+    launchctl load ~/Library/LaunchAgents/com.triagebench.collect.plist
+-->
+<dict>
+  <key>Label</key>
+  <string>com.triagebench.collect</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__REPO_DIR__/scripts/collect_local.sh</string>
+  </array>
+
+  <!-- launchd runs with a minimal PATH and no keychain; supply the token here
+       if `gh auth token` is not reachable from this context. -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>3</integer>
+    <key>Minute</key><integer>17</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardErrorPath</key>
+  <string>__REPO_DIR__/data/ci/_logs/launchd.err</string>
+  <key>StandardOutPath</key>
+  <string>__REPO_DIR__/data/ci/_logs/launchd.out</string>
+</dict>
+</plist>

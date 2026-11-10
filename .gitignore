@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+
+# Upstream dataset: fetched by scripts/download.py, not redistributed here
+# (GitBugs is CC BY 4.0; see LICENSE).
+data/raw/
+
+# Corpus embeddings are large and regenerate deterministically from the data.
+data/cache/*.npy
+
+# The LLM response cache is deliberately NOT ignored. It is keyed by the exact
+# prompt, so committing it lets anyone reproduce the published decision numbers
+# without an API key and without re-billing the model.
+!data/cache/verify-*.jsonl
+
+# results/ is likewise tracked on purpose: the tables in README.md are
+# regenerated from it by scripts/summarize.py.
+
+# Collector run logs from the local launchd job.
+data/ci/*/_logs/
+data/ci/_logs/

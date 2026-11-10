@@ -1,0 +1,490 @@
+[
+  {
+    "issue_number": 203977,
+    "title": "DISABLED test__int8_mm_m_32_k_32_n_48_compile_True_slice_False_xpu (__main__.TestBasicGEMMXPU)",
+    "test_name": "TestBasicGEMMXPU.test__int8_mm_m_32_k_32_n_48_compile_True_slice_False_xpu",
+    "created_at": "2026-11-08T16:22:35Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42454749186,
+    "job_id": 128656609948,
+    "state": "open"
+  },
+  {
+    "issue_number": 203928,
+    "title": "DISABLED test_multiheadattention_fastpath_fp16_head_dim_alignment_xpu (__main__.TestTransformersAcceleratorXPU)",
+    "test_name": "TestTransformersAcceleratorXPU.test_multiheadattention_fastpath_fp16_head_dim_alignment_xpu",
+    "created_at": "2026-11-07T16:20:56Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42342271695,
+    "job_id": 128317745150,
+    "state": "open"
+  },
+  {
+    "issue_number": 203902,
+    "title": "DISABLED test_sdpa_dynamic_shapes_xpu (__main__.ReproTestsDeviceXPU)",
+    "test_name": "ReproTestsDeviceXPU.test_sdpa_dynamic_shapes_xpu",
+    "created_at": "2026-11-07T02:58:13Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42265220496,
+    "job_id": 128070601676,
+    "state": "open"
+  },
+  {
+    "issue_number": 203873,
+    "title": "DISABLED test_correctness_Rprop_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_Rprop_use_closure_True_xpu_float32",
+    "created_at": "2026-11-06T23:20:56Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42194485566,
+    "job_id": 127825829073,
+    "state": "open"
+  },
+  {
+    "issue_number": 203842,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_-1000 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_-1000",
+    "created_at": "2026-11-06T18:11:16Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42190385190,
+    "job_id": 127810613248,
+    "state": "open"
+  },
+  {
+    "issue_number": 203841,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_-100 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_-100",
+    "created_at": "2026-11-06T18:11:13Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42190385190,
+    "job_id": 127810613248,
+    "state": "open"
+  },
+  {
+    "issue_number": 203840,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_False_conv_offset_-1000 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_False_conv_offset_-1000",
+    "created_at": "2026-11-06T18:11:09Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42190385190,
+    "job_id": 127810613248,
+    "state": "open"
+  },
+  {
+    "issue_number": 203839,
+    "title": "DISABLED test_adaptive_avg_pooling_backward_fails_xpu (__main__.TestPoolingNNDeviceXPU)",
+    "test_name": "TestPoolingNNDeviceXPU.test_adaptive_avg_pooling_backward_fails_xpu",
+    "created_at": "2026-11-06T18:10:13Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42183528343,
+    "job_id": 127787704831,
+    "state": "open"
+  },
+  {
+    "issue_number": 203838,
+    "title": "DISABLED test_correctness_Rprop_use_closure_False_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_Rprop_use_closure_False_xpu_float32",
+    "created_at": "2026-11-06T18:09:44Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42174746311,
+    "job_id": 127758603830,
+    "state": "open"
+  },
+  {
+    "issue_number": 203837,
+    "title": "DISABLED test_partitioner_activation_memory_budget_with_unbacked_symints_xpu (__main__.ReproTestsDeviceXPU)",
+    "test_name": "ReproTestsDeviceXPU.test_partitioner_activation_memory_budget_with_unbacked_symints_xpu",
+    "created_at": "2026-11-06T18:09:40Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42174746311,
+    "job_id": 127758603908,
+    "state": "open"
+  },
+  {
+    "issue_number": 203836,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_False_conv_offset_-100 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_False_conv_offset_-100",
+    "created_at": "2026-11-06T18:09:37Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42174746311,
+    "job_id": 127758603864,
+    "state": "open"
+  },
+  {
+    "issue_number": 203789,
+    "title": "DISABLED test_logs_out (__main__.LoggingTests)",
+    "test_name": "LoggingTests.test_logs_out",
+    "created_at": "2026-11-06T11:16:23Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42167861006,
+    "job_id": 127735741495,
+    "state": "open"
+  },
+  {
+    "issue_number": 203788,
+    "title": "DISABLED test_correctness_NAdam_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_NAdam_use_closure_True_xpu_float32",
+    "created_at": "2026-11-06T11:16:19Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42167861006,
+    "job_id": 127735741520,
+    "state": "open"
+  },
+  {
+    "issue_number": 203787,
+    "title": "DISABLED test_no_nondeterministic_alert_interpolate_bilinear_xpu (__main__.TestTorchDeviceTypeXPU)",
+    "test_name": "TestTorchDeviceTypeXPU.test_no_nondeterministic_alert_interpolate_bilinear_xpu",
+    "created_at": "2026-11-06T11:15:32Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42138456743,
+    "job_id": 127641582686,
+    "state": "open"
+  },
+  {
+    "issue_number": 203759,
+    "title": "DISABLED test_short_json_timing_enabled_True_include_collectives_True (__main__.NCCLTraceTest)",
+    "test_name": "NCCLTraceTest.test_short_json_timing_enabled_True_include_collectives_True",
+    "created_at": "2026-11-06T06:43:18Z",
+    "platforms": [
+      "rocm"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203738,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_True_conv_offset_-1000 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_True_conv_offset_-1000",
+    "created_at": "2026-11-06T03:22:59Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42128883951,
+    "job_id": 127613209745,
+    "state": "open"
+  },
+  {
+    "issue_number": 203606,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_True_conv_offset_-100 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_True_conv_offset_-100",
+    "created_at": "2026-11-05T17:34:03Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 42009898145,
+    "job_id": 127197659393,
+    "state": "open"
+  },
+  {
+    "issue_number": 203553,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_False_conv_offset_-1000 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_False_conv_offset_-1000",
+    "created_at": "2026-11-05T09:23:05Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41891109192,
+    "job_id": 126803493836,
+    "state": "open"
+  },
+  {
+    "issue_number": 203500,
+    "title": "DISABLED test_row_reduction_output_precision (__main__.TestNativeMatmulRowReduction)",
+    "test_name": "TestNativeMatmulRowReduction.test_row_reduction_output_precision",
+    "created_at": "2026-11-05T01:51:39Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41802403768,
+    "job_id": 126493059000,
+    "state": "open"
+  },
+  {
+    "issue_number": 203499,
+    "title": "DISABLED test_matmul_output_precision (__main__.TestNativeMatmulRowReduction)",
+    "test_name": "TestNativeMatmulRowReduction.test_matmul_output_precision",
+    "created_at": "2026-11-05T01:51:36Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41802403768,
+    "job_id": 126493059000,
+    "state": "open"
+  },
+  {
+    "issue_number": 203337,
+    "title": "DISABLED test_correctness_RAdam_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_RAdam_use_closure_True_xpu_float32",
+    "created_at": "2026-11-04T07:28:33Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41694281019,
+    "job_id": 126137720626,
+    "state": "open"
+  },
+  {
+    "issue_number": 203336,
+    "title": "DISABLED test_correctness_Adadelta_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_Adadelta_use_closure_True_xpu_float32",
+    "created_at": "2026-11-04T07:28:00Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41678022051,
+    "job_id": 126078804351,
+    "state": "open"
+  },
+  {
+    "issue_number": 203331,
+    "title": "DISABLED test_run2run_determinism_model_name_BertForMaskedLM_training_or_inference_inference_precision_amp (__main__.DeterministicTest)",
+    "test_name": "DeterministicTest.test_run2run_determinism_model_name_BertForMaskedLM_training_or_inference_inference_precision_amp",
+    "created_at": "2026-11-04T06:43:29Z",
+    "platforms": [
+      "linux",
+      "slow"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203309,
+    "title": "DISABLED test_correctness_Adam_use_closure_False_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_Adam_use_closure_False_xpu_float32",
+    "created_at": "2026-11-04T00:56:43Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41635671603,
+    "job_id": 125927352661,
+    "state": "open"
+  },
+  {
+    "issue_number": 203197,
+    "title": "DISABLED test_inductor_runs_on_nonzero_device (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_inductor_runs_on_nonzero_device",
+    "created_at": "2026-11-03T06:43:13Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203196,
+    "title": "DISABLED test_device_passthrough_still_reuses_compile_under_coor_origin_intermediate (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_device_passthrough_still_reuses_compile_under_coor_origin_intermediate",
+    "created_at": "2026-11-03T06:43:10Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203138,
+    "title": "DISABLED test_device_passthrough_still_reuses_compile_under_coor_origin_input (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_device_passthrough_still_reuses_compile_under_coor_origin_input",
+    "created_at": "2026-11-03T00:49:25Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203137,
+    "title": "DISABLED test_grouped_gemm_strided_True_a_row_major_False_b_row_major_False_2d_3d_gemv_cpu_bfloat16 (__main__.TestGroupedMMCPU)",
+    "test_name": "TestGroupedMMCPU.test_grouped_gemm_strided_True_a_row_major_False_b_row_major_False_2d_3d_gemv_cpu_bfloat16",
+    "created_at": "2026-11-03T00:49:22Z",
+    "platforms": [
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203058,
+    "title": "DISABLED test_device_observations_track_current_device_under_coor_origin_input (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_device_observations_track_current_device_under_coor_origin_input",
+    "created_at": "2026-11-02T18:41:40Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 203044,
+    "title": "DISABLED test_correctness_AdamW_use_closure_False_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_AdamW_use_closure_False_xpu_float32",
+    "created_at": "2026-11-02T17:00:08Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41369509625,
+    "job_id": 125042942184,
+    "state": "open"
+  },
+  {
+    "issue_number": 203017,
+    "title": "DISABLED test_device_observations_track_current_device_under_coor_origin_factory (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_device_observations_track_current_device_under_coor_origin_factory",
+    "created_at": "2026-11-02T12:41:54Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 202995,
+    "title": "DISABLED test_current_device_stream_constructor_under_coor_stream_kind_generic_use_kwarg_True (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_current_device_stream_constructor_under_coor_stream_kind_generic_use_kwarg_True",
+    "created_at": "2026-11-02T06:49:28Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 202975,
+    "title": "DISABLED test_current_device_stream_constructor_under_coor_stream_kind_generic_use_kwarg_False (__main__.TestCompileOnOneRankDeviceAsParameter)",
+    "test_name": "TestCompileOnOneRankDeviceAsParameter.test_current_device_stream_constructor_under_coor_stream_kind_generic_use_kwarg_False",
+    "created_at": "2026-11-02T00:49:48Z",
+    "platforms": [
+      "rocm",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 202933,
+    "title": "DISABLED test_correctness_AdamW_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_AdamW_use_closure_True_xpu_float32",
+    "created_at": "2026-11-01T09:47:29Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41258184913,
+    "job_id": 124711007582,
+    "state": "open"
+  },
+  {
+    "issue_number": 202889,
+    "title": "DISABLED test_correctness_RAdam_use_closure_False_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU)",
+    "test_name": "CompiledOptimizerParityTestsXPU.test_correctness_RAdam_use_closure_False_xpu_float32",
+    "created_at": "2026-10-31T16:13:24Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41163964523,
+    "job_id": 124432447820,
+    "state": "open"
+  },
+  {
+    "issue_number": 202877,
+    "title": "DISABLED test_conv_bias_single_roundtrip_when_saved_bfloat16 (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_single_roundtrip_when_saved_bfloat16",
+    "created_at": "2026-10-31T05:32:14Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41093284548,
+    "job_id": 124204742161,
+    "state": "open"
+  },
+  {
+    "issue_number": 202876,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_ (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_",
+    "created_at": "2026-10-31T05:32:11Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41093284548,
+    "job_id": 124204742161,
+    "state": "open"
+  },
+  {
+    "issue_number": 202875,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_False_conv_offset_ (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_False_conv_offset_",
+    "created_at": "2026-10-31T05:32:07Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41093284548,
+    "job_id": 124204742161,
+    "state": "open"
+  },
+  {
+    "issue_number": 202874,
+    "title": "DISABLED test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_True_conv_offset_ (__main__.CudaReproTests)",
+    "test_name": "CudaReproTests.test_conv_bias_rounds_before_log_softmax_bfloat16_emulate_precision_casts_True_conv_offset_",
+    "created_at": "2026-10-31T05:32:04Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41093284548,
+    "job_id": 124204742161,
+    "state": "open"
+  },
+  {
+    "issue_number": 202873,
+    "title": "DISABLED test_persistent_and_looped_reductions_benchmark (__main__.ComboKernelBenchmarkTestsPerSubkernelBlocks)",
+    "test_name": "ComboKernelBenchmarkTestsPerSubkernelBlocks.test_persistent_and_looped_reductions_benchmark",
+    "created_at": "2026-10-31T05:30:39Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 41075276278,
+    "job_id": 124143500276,
+    "state": "open"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "project": "cassandra",
+    "retriever": "tfidf",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.41025641025641024,
+      "5": 0.6025641025641025,
+      "10": 0.6666666666666666,
+      "25": 0.7371794871794872
+    },
+    "mrr": 0.4960643621366866,
+    "seconds_per_query": 0.001380069980745574,
+    "system": "tfidf",
+    "n_reports": 4612
+  },
+  {
+    "project": "cassandra",
+    "retriever": "bm25",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.38461538461538464,
+      "5": 0.5769230769230769,
+      "10": 0.6474358974358975,
+      "25": 0.6858974358974359
+    },
+    "mrr": 0.47793066281843377,
+    "seconds_per_query": 0.1414384970576532,
+    "system": "bm25",
+    "n_reports": 4612
+  },
+  {
+    "project": "cassandra",
+    "retriever": "keyword",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.3269230769230769,
+      "5": 0.46794871794871795,
+      "10": 0.5192307692307693,
+      "25": 0.6025641025641025
+    },
+    "mrr": 0.39135451377056535,
+    "seconds_per_query": 0.0023314302884384045,
+    "system": "keyword",
+    "n_reports": 4612
+  },
+  {
+    "project": "cassandra",
+    "retriever": "dense",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.41025641025641024,
+      "5": 0.6153846153846154,
+      "10": 0.6923076923076923,
+      "25": 0.75
+    },
+    "mrr": 0.5020296915130509,
+    "seconds_per_query": 0.09932634188459279,
+    "system": "dense",
+    "n_reports": 4612
+  },
+  {
+    "project": "cassandra",
+    "retriever": "rrf-weighted",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.40384615384615385,
+      "5": 0.6217948717948718,
+      "10": 0.6794871794871795,
+      "25": 0.7564102564102564
+    },
+    "mrr": 0.4993416047460167,
+    "seconds_per_query": 0.17054943749994542,
+    "system": "rrf-weighted",
+    "n_reports": 4612
+  },
+  {
+    "project": "cassandra",
+    "retriever": "rrf-equal",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.36538461538461536,
+      "5": 0.5769230769230769,
+      "10": 0.6538461538461539,
+      "25": 0.7435897435897436
+    },
+    "mrr": 0.4644813157435212,
+    "seconds_per_query": 0.1743795109487576,
+    "system": "rrf-equal",
+    "n_reports": 4612
+  },
+  {
+    "project": "cassandra",
+    "retriever": "rrf-lexical",
+    "n_duplicate_queries": 156,
+    "recall_at": {
+      "1": 0.33974358974358976,
+      "5": 0.5448717948717948,
+      "10": 0.5833333333333334,
+      "25": 0.7051282051282052
+    },
+    "mrr": 0.4318355240614491,
+    "seconds_per_query": 0.1575604428397081,
+    "system": "rrf-lexical",
+    "n_reports": 4612
+  },
+  {
+    "project": "hadoop",
+    "retriever": "tfidf",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.5076923076923077,
+      "5": 0.7230769230769231,
+      "10": 0.8,
+      "25": 0.8615384615384616
+    },
+    "mrr": 0.605748695748696,
+    "seconds_per_query": 0.0007858249999117106,
+    "system": "tfidf",
+    "n_reports": 2503
+  },
+  {
+    "project": "hadoop",
+    "retriever": "bm25",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.49230769230769234,
+      "5": 0.7230769230769231,
+      "10": 0.7846153846153846,
+      "25": 0.8307692307692308
+    },
+    "mrr": 0.5897659104180843,
+    "seconds_per_query": 0.03329941281542863,
+    "system": "bm25",
+    "n_reports": 2503
+  },
+  {
+    "project": "hadoop",
+    "retriever": "keyword",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.3384615384615385,
+      "5": 0.5538461538461539,
+      "10": 0.6461538461538462,
+      "25": 0.7384615384615385
+    },
+    "mrr": 0.4425275704687469,
+    "seconds_per_query": 0.00106659038462497,
+    "system": "keyword",
+    "n_reports": 2503
+  },
+  {
+    "project": "hadoop",
+    "retriever": "dense",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.47692307692307695,
+      "5": 0.8,
+      "10": 0.8461538461538461,
+      "25": 0.8769230769230769
+    },
+    "mrr": 0.6095985060690944,
+    "seconds_per_query": 0.2739004461538011,
+    "system": "dense",
+    "n_reports": 2503
+  },
+  {
+    "project": "hadoop",
+    "retriever": "rrf-weighted",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.5076923076923077,
+      "5": 0.7384615384615385,
+      "10": 0.8307692307692308,
+      "25": 0.8923076923076924
+    },
+    "mrr": 0.6230794554073907,
+    "seconds_per_query": 0.07147331601523686,
+    "system": "rrf-weighted",
+    "n_reports": 2503
+  },
+  {
+    "project": "hadoop",
+    "retriever": "rrf-equal",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.5076923076923077,
+      "5": 0.7230769230769231,
+      "10": 0.8,
+      "25": 0.8923076923076924
+    },
+    "mrr": 0.6020377485762102,
+    "seconds_per_query": 0.07965557756923282,
+    "system": "rrf-equal",
+    "n_reports": 2503
+  },
+  {
+    "project": "hadoop",
+    "retriever": "rrf-lexical",
+    "n_duplicate_queries": 65,
+    "recall_at": {
+      "1": 0.4153846153846154,
+      "5": 0.6307692307692307,
+      "10": 0.7384615384615385,
+      "25": 0.8
+    },
+    "mrr": 0.5255680277789061,
+    "seconds_per_query": 0.036548718584638734,
+    "system": "rrf-lexical",
+    "n_reports": 2503
+  }
+]

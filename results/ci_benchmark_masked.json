@@ -1,0 +1,131 @@
+{
+  "corpus": {
+    "records": 64,
+    "distinct_tests": 52,
+    "tests_with_repeats": 11,
+    "duplicate_pairs": 13,
+    "flagged_flaky": 52,
+    "not_flagged": 12,
+    "distinct_jobs": 35,
+    "top_exceptions": {
+      "AssertionError": 41,
+      "RuntimeError": 9,
+      "torch._inductor.exc.InductorError": 3,
+      "torch.AcceleratorError": 2,
+      "torch._dynamo.exc.InternalTorchDynamoError": 1
+    },
+    "span": [
+      "2026-08-20 00:54:06.191840700+00:00",
+      "2026-11-08 07:28:18.140292300+00:00"
+    ],
+    "test_identity": "masked"
+  },
+  "rows": [
+    {
+      "project": "pytorch__pytorch",
+      "retriever": "tfidf",
+      "n_duplicate_queries": 11,
+      "recall_at": {
+        "1": 0.8181818181818182,
+        "5": 1.0,
+        "10": 1.0,
+        "25": 1.0
+      },
+      "mrr": 0.9090909090909091,
+      "seconds_per_query": 0.0004830417284128171,
+      "system": "tfidf",
+      "stage": "retrieval"
+    },
+    {
+      "project": "pytorch__pytorch",
+      "retriever": "bm25",
+      "n_duplicate_queries": 11,
+      "recall_at": {
+        "1": 0.7272727272727273,
+        "5": 1.0,
+        "10": 1.0,
+        "25": 1.0
+      },
+      "mrr": 0.8636363636363636,
+      "seconds_per_query": 0.0019532765449680896,
+      "system": "bm25",
+      "stage": "retrieval"
+    },
+    {
+      "project": "pytorch__pytorch",
+      "retriever": "dense",
+      "n_duplicate_queries": 11,
+      "recall_at": {
+        "1": 0.18181818181818182,
+        "5": 0.36363636363636365,
+        "10": 0.9090909090909091,
+        "25": 1.0
+      },
+      "mrr": 0.34354256854256854,
+      "seconds_per_query": 0.05439560990965798,
+      "system": "dense",
+      "stage": "retrieval"
+    },
+    {
+      "project": "pytorch__pytorch",
+      "retriever": "rrf-weighted",
+      "n_duplicate_queries": 11,
+      "recall_at": {
+        "1": 0.36363636363636365,
+        "5": 0.7272727272727273,
+        "10": 1.0,
+        "25": 1.0
+      },
+      "mrr": 0.5159090909090909,
+      "seconds_per_query": 0.009301231090582653,
+      "system": "rrf-weighted",
+      "stage": "retrieval"
+    },
+    {
+      "project": "pytorch__pytorch",
+      "system": "top1-threshold",
+      "n_queries": 9,
+      "n_duplicate": 5,
+      "precision": 0.625,
+      "recall": 1.0,
+      "f1": 0.7692307692307693,
+      "accuracy": 0.6666666666666666,
+      "correct_master": 0.2,
+      "threshold": 0.016055195839012024,
+      "verifier": "top1-threshold",
+      "stage": "decision"
+    },
+    {
+      "project": "pytorch__pytorch",
+      "system": "llm-balanced",
+      "n_queries": 9,
+      "n_duplicate": 5,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1": 0.8333333333333333,
+      "accuracy": 0.7777777777777778,
+      "correct_master": 0.4,
+      "threshold": null,
+      "verifier": "llm-balanced",
+      "stage": "decision",
+      "model": "gpt-4o-mini",
+      "failures": 0
+    },
+    {
+      "project": "pytorch__pytorch",
+      "system": "llm-precision",
+      "n_queries": 9,
+      "n_duplicate": 5,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091,
+      "accuracy": 0.8888888888888888,
+      "correct_master": 0.4,
+      "threshold": null,
+      "verifier": "llm-precision",
+      "stage": "decision",
+      "model": "gpt-4o-mini",
+      "failures": 0
+    }
+  ]
+}
