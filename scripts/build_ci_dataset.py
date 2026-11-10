@@ -36,6 +36,17 @@ from triagebench.ci.extract import extract_failures     # noqa: E402
 from triagebench.ci.github import GitHub                # noqa: E402
 
 
+#: A job with one of these outcomes will never yield more than it already has,
+#: so re-downloading it is pure waste. Anything else (network error, rate
+#: limit) may succeed on a later run and is left eligible.
+SETTLED_STATUSES = frozenset({"ok", "no_failures", "expired"})
+
+
+def jobs_to_skip(ledger: dict[str, str]) -> set[int]:
+    """Job ids whose outcome is settled and should not be fetched again."""
+    return {int(j) for j, status in ledger.items() if status in SETTLED_STATUSES}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo", default="pytorch/pytorch")
@@ -78,10 +89,31 @@ def main() -> int:
     if corpus_path.exists():
         existing = [json.loads(ln) for ln in corpus_path.read_text().splitlines()
                     if ln.strip()]
-    done_jobs = {r["job_id"] for r in existing if r.get("job_id")}
+    # Jobs that produced records are implicit in the corpus, but jobs that
+    # downloaded and yielded nothing are not -- and without a record of them
+    # they are re-downloaded on every scheduled run, forever, crowding out new
+    # work under --max-jobs. The ledger tracks every job already attempted.
+    ledger_path = out_dir / "collected_jobs.json"
+    ledger: dict[str, str] = {}
+    if ledger_path.exists():
+        try:
+            ledger = json.loads(ledger_path.read_text())
+        except json.JSONDecodeError:
+            ledger = {}
+
+    productive = {r["job_id"] for r in existing if r.get("job_id")}
+    for jid in productive:
+        ledger.setdefault(str(jid), "ok")
+
+    # Transient failures are worth another try; a settled outcome is not.
+    done_jobs = jobs_to_skip(ledger)
+
     if existing:
         print(f"  existing corpus: {len(existing):,} records "
-              f"from {len(done_jobs):,} jobs (will be kept)")
+              f"from {len(productive):,} jobs (will be kept)")
+    if done_jobs - productive:
+        print(f"  {len(done_jobs - productive):,} jobs previously tried and "
+              f"settled (expired or no parseable failures) -- skipping")
 
     # Several issues cite the same job; download each log once.
     job_to_issues: dict[int, list] = {}
@@ -119,6 +151,8 @@ def main() -> int:
         if log is None:
             with lock:
                 stats[f"log_failed:{reason}"] += 1
+                # "expired" is permanent; anything else may be transient.
+                ledger[str(job_id)] = "expired" if reason == "expired" else "error"
             return
 
         failures = extract_failures(log, repo=args.repo,
@@ -126,6 +160,7 @@ def main() -> int:
         with lock:
             stats["logs_ok"] += 1
             stats["log_bytes"] += len(log)
+            ledger[str(job_id)] = "ok" if failures else "no_failures"
             if not failures:
                 stats["logs_no_failures_parsed"] += 1
             for f in failures:
@@ -172,6 +207,7 @@ def main() -> int:
     with corpus_path.open("w") as fh:
         for r in records:
             fh.write(json.dumps(r) + "\n")
+    ledger_path.write_text(json.dumps(dict(sorted(ledger.items())), indent=0))
 
     by_test = Counter(r["test_id"] for r in records)
     repeated = {t: n for t, n in by_test.items() if n > 1}

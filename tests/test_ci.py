@@ -286,3 +286,31 @@ def test_collection_workflow_is_valid_and_scheduled():
     run_blocks = " ".join(s.get("run", "") for s in steps)
     assert "scripts/build_ci_dataset.py" in run_blocks
     assert "--max-jobs" in run_blocks, "an unbounded scheduled download is a trap"
+
+
+def _collector_module():
+    import importlib.util
+    path = Path(__file__).resolve().parents[1] / "scripts/build_ci_dataset.py"
+    spec = importlib.util.spec_from_file_location("build_ci_dataset", path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def test_settled_jobs_are_never_refetched():
+    """A job that downloaded but contained no parseable failures is not in the
+    corpus, so without a ledger the collector re-downloads it on every run --
+    forever, crowding out new work under --max-jobs."""
+    mod = _collector_module()
+    ledger = {"1": "ok", "2": "no_failures", "3": "expired", "4": "error"}
+    skip = mod.jobs_to_skip(ledger)
+
+    assert skip == {1, 2, 3}
+    assert 4 not in skip, "a transient error must stay eligible for a retry"
+
+
+def test_ledger_statuses_the_collector_writes_are_all_classifiable():
+    mod = _collector_module()
+    written = {"ok", "no_failures", "expired", "error"}
+    unknown = written - mod.SETTLED_STATUSES - {"error"}
+    assert not unknown, f"status written but never classified: {unknown}"

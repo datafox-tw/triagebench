@@ -252,6 +252,7 @@ Four things the workflow does deliberately:
 - **`--max-jobs` caps downloads per run.** An unbounded scheduled download is a trap: one slow day and the job runs until the timeout, collecting nothing.
 - **Newest jobs first.** Logs expire, so the most recent jobs are precisely the ones that will not be collectable tomorrow.
 - **`cancel-in-progress: false`** with a concurrency group. Two collectors racing on `failures.jsonl` would interleave writes.
+- **A ledger records every job attempted, not just productive ones.** A log that downloads but contains no parseable failures leaves no trace in the corpus, so without `collected_jobs.json` it would be re-downloaded on every run forever, crowding out new work under `--max-jobs`. Settled outcomes (`ok`, `no_failures`, `expired`) are skipped; transient errors stay eligible for retry.
 - **It fails loudly on auth errors.** If every download returns 401/403 the collector exits non-zero rather than reporting an empty but successful run. This is the same failure that made every log look "expired" during development, and a silent scheduled collector is worse than a broken one.
 
 The default `GITHUB_TOKEN` is scoped to its own repository. If reading another repository's Actions logs is rejected, add a PAT with `public_repo` as a secret named `COLLECTOR_TOKEN`; the workflow prefers it automatically. Note also that GitHub disables scheduled workflows in repositories with 60 days of no activity — a committing collector keeps itself alive, but a long pause needs a manual re-enable.
