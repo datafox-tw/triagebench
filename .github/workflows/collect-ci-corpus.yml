@@ -70,11 +70,21 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ci
-          if git diff --cached --quiet; then
-            echo "no new records; nothing to commit"
+
+          # disabled_issues.json is a scan artifact: it is rewritten wholesale
+          # on every run, so staging it alone would produce a daily commit that
+          # carries no new data. Commit only when the corpus or the ledger of
+          # attempted jobs actually moved.
+          corpus_changed=$(git diff --cached --name-only -- \
+            'data/ci/**/failures.jsonl' 'data/ci/**/collected_jobs.json')
+          if [ -z "$corpus_changed" ]; then
+            echo "no new failures and no new jobs attempted; nothing to commit"
+            git reset -q
             exit 0
           fi
-          added=$(git diff --cached --numstat -- '*.jsonl' | awk '{s+=$1} END {print s+0}')
+
+          added=$(git diff --cached --numstat -- 'data/ci/**/failures.jsonl' \
+                  | awk '{s+=$1} END {print s+0}')
           git commit -m "data: collect ${added} new CI failure records"
           # The schedule can overlap a human push; rebase rather than fail.
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
