@@ -1466,5 +1466,329 @@
     "run_id": null,
     "job_id": null,
     "state": "open"
+  },
+  {
+    "issue_number": 199703,
+    "title": "DISABLED test_pointwise_query_producer_head_dims1_xpu (__main__.TestFlexDecodingXPU)",
+    "test_name": "TestFlexDecodingXPU.test_pointwise_query_producer_head_dims1_xpu",
+    "created_at": "2026-10-04T19:05:47Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 199702,
+    "title": "DISABLED test_benchmark_request_restores_serialized_cudagraph_policy (__main__.TestAlgorithmSelectorChoiceTypes)",
+    "test_name": "TestAlgorithmSelectorChoiceTypes.test_benchmark_request_restores_serialized_cudagraph_policy",
+    "created_at": "2026-10-04T19:05:42Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 199701,
+    "title": "DISABLED test_benchmark_request_uses_automatic_cudagraph_policy (__main__.TestAlgorithmSelectorChoiceTypes)",
+    "test_name": "TestAlgorithmSelectorChoiceTypes.test_benchmark_request_uses_automatic_cudagraph_policy",
+    "created_at": "2026-10-04T19:05:38Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 199693,
+    "title": "DISABLED test_weight_norm_1d_and_reduced_dtypes_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)",
+    "test_name": "DynamicShapesGPUTests.test_weight_norm_1d_and_reduced_dtypes_dynamic_shapes_xpu",
+    "created_at": "2026-10-04T15:46:45Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199672,
+    "title": "DISABLED test_index_put_as_masked_fill_mask_reads_target_by_extern_kernel_cuda (__main__.GPUTests)",
+    "test_name": "GPUTests.test_index_put_as_masked_fill_mask_reads_target_by_extern_kernel_cuda",
+    "created_at": "2026-10-04T02:37:09Z",
+    "platforms": [
+      "rocm"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199495,
+    "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests)",
+    "test_name": "DynamicShapesGPUTests.test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_dynamic_shapes_xpu",
+    "created_at": "2026-10-02T13:31:50Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 36958087790,
+    "job_id": 110691307119,
+    "state": "open"
+  },
+  {
+    "issue_number": 199494,
+    "title": "DISABLED test_forward_mode_AD_nn_functional_grid_sample_xpu_float64 (__main__.TestFwdGradientsXPU)",
+    "test_name": "TestFwdGradientsXPU.test_forward_mode_AD_nn_functional_grid_sample_xpu_float64",
+    "created_at": "2026-10-02T13:30:29Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 36950249027,
+    "job_id": 110667093106,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199493,
+    "title": "DISABLED test_forward_ad_nn_functional_grid_sample_xpu_float32 (__main__.TestCompositeComplianceXPU)",
+    "test_name": "TestCompositeComplianceXPU.test_forward_ad_nn_functional_grid_sample_xpu_float32",
+    "created_at": "2026-10-02T13:30:26Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 36950249027,
+    "job_id": 110667093163,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199454,
+    "title": "DISABLED test_zero_strided_emits_fill_kernel_cuda (__main__.TestTorchCUDACUDA)",
+    "test_name": "TestTorchCUDACUDA.test_zero_strided_emits_fill_kernel_cuda",
+    "created_at": "2026-10-02T07:00:38Z",
+    "platforms": [
+      "inductor"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199424,
+    "title": "DISABLED test_constants_pinned_async_parallel_copy_tasks_cuda (__main__.AOTInductorTestDualWrapper)",
+    "test_name": "AOTInductorTestDualWrapper.test_constants_pinned_async_parallel_copy_tasks_cuda",
+    "created_at": "2026-10-02T01:17:11Z",
+    "platforms": [
+      "linux",
+      "inductor"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 199423,
+    "title": "DISABLED test_constants_pinned_async_parallel_copy_tasks_cuda (__main__.AOTInductorTestABICompatibleGpu)",
+    "test_name": "AOTInductorTestABICompatibleGpu.test_constants_pinned_async_parallel_copy_tasks_cuda",
+    "created_at": "2026-10-02T01:17:08Z",
+    "platforms": [
+      "linux",
+      "inductor"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 199390,
+    "title": "DISABLED test_return_view_constant_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_return_view_constant_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:35:29Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199389,
+    "title": "DISABLED test_quanatized_int8_linear_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_quanatized_int8_linear_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:35:23Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199388,
+    "title": "DISABLED test_kernel_profile_template_kernel_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_kernel_profile_template_kernel_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:35:16Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199387,
+    "title": "DISABLED test_kernel_profile_scatter_fallback_arg_order_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_kernel_profile_scatter_fallback_arg_order_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:35:10Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199386,
+    "title": "DISABLED test_kernel_profile_index_put_fallback_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_kernel_profile_index_put_fallback_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:35:04Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199385,
+    "title": "DISABLED test_kernel_profile_every_kernel_has_context_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_kernel_profile_every_kernel_has_context_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:57Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199384,
+    "title": "DISABLED test_freezing_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_freezing_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:51Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199383,
+    "title": "DISABLED test_deconv_freezing_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_deconv_freezing_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:45Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199382,
+    "title": "DISABLED test_conv_freezing_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_conv_freezing_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:39Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199381,
+    "title": "DISABLED test_constant_folding_with_update_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_constant_folding_with_update_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:33Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199380,
+    "title": "DISABLED test_cond_with_parameters_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_cond_with_parameters_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:27Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199378,
+    "title": "DISABLED test_cond_with_multiple_outputs_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_cond_with_multiple_outputs_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:21Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199377,
+    "title": "DISABLED test_cond_unbacked_symint_predicate_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_cond_unbacked_symint_predicate_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:14Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199376,
+    "title": "DISABLED test_cond_nested_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_cond_nested_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:08Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199375,
+    "title": "DISABLED test_buffer_mutation_and_force_mmap_weights_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_buffer_mutation_and_force_mmap_weights_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:34:01Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199374,
+    "title": "DISABLED test_aoti_runtime_asserts_backed_symint_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_aoti_runtime_asserts_backed_symint_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:33:55Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199373,
+    "title": "DISABLED test_aoti_profiler_tensor_list_input_shapes_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_aoti_profiler_tensor_list_input_shapes_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:33:50Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199372,
+    "title": "DISABLED test_aoti_profiler_multi_output_fallback_input_shapes_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_aoti_profiler_multi_output_fallback_input_shapes_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:33:43Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
+  },
+  {
+    "issue_number": 199371,
+    "title": "DISABLED test_aoti_profiler_input_shapes_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
+    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_aoti_profiler_input_shapes_cpu_with_stack_allocation",
+    "created_at": "2026-10-01T20:33:36Z",
+    "platforms": [],
+    "run_id": null,
+    "job_id": null,
+    "state": "closed"
   }
 ]
