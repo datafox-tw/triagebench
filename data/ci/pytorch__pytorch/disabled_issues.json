@@ -1,5 +1,91 @@
 [
   {
+    "issue_number": 204745,
+    "title": "DISABLED test_fake_export_cuda_conj_cpu_float32 (__main__.TestExportOpInfoCPU)",
+    "test_name": "TestExportOpInfoCPU.test_fake_export_cuda_conj_cpu_float32",
+    "created_at": "2026-11-13T06:44:06Z",
+    "platforms": [
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 204684,
+    "title": "DISABLED test_global_meta_ws_disables_flatten_global_meta_ws_True (__main__.TestBlackwellAutoWSConfigs)",
+    "test_name": "TestBlackwellAutoWSConfigs.test_global_meta_ws_disables_flatten_global_meta_ws_True",
+    "created_at": "2026-11-13T01:00:42Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43294174153,
+    "job_id": 131463738200,
+    "state": "open"
+  },
+  {
+    "issue_number": 204681,
+    "title": "DISABLED test_constants_pinned_async_copy_disabled_on_rocm_cuda (__main__.AOTInductorTestDualWrapper)",
+    "test_name": "AOTInductorTestDualWrapper.test_constants_pinned_async_copy_disabled_on_rocm_cuda",
+    "created_at": "2026-11-13T00:49:45Z",
+    "platforms": [
+      "rocm",
+      "inductor"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 204680,
+    "title": "DISABLED test_constants_pinned_async_copy_disabled_on_rocm_cuda (__main__.AOTInductorTestABICompatibleGpu)",
+    "test_name": "AOTInductorTestABICompatibleGpu.test_constants_pinned_async_copy_disabled_on_rocm_cuda",
+    "created_at": "2026-11-13T00:49:42Z",
+    "platforms": [
+      "rocm",
+      "inductor"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 204640,
+    "title": "DISABLED test_global_meta_ws_disables_flatten_global_meta_ws_False (__main__.TestBlackwellAutoWSConfigs)",
+    "test_name": "TestBlackwellAutoWSConfigs.test_global_meta_ws_disables_flatten_global_meta_ws_False",
+    "created_at": "2026-11-12T19:50:31Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43226345124,
+    "job_id": 131223185870,
+    "state": "open"
+  },
+  {
+    "issue_number": 204580,
+    "title": "DISABLED test_grid_sampler_expand_preserves_view_xpu (__main__.GPUTests)",
+    "test_name": "GPUTests.test_grid_sampler_expand_preserves_view_xpu",
+    "created_at": "2026-11-12T11:55:21Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43168527759,
+    "job_id": 131024818280,
+    "state": "open"
+  },
+  {
+    "issue_number": 204469,
+    "title": "DISABLED test_event_record_after_input_mutation_non_escaping_removed_from_container_container_set_cuda (__main__.TestStreamsCUDA)",
+    "test_name": "TestStreamsCUDA.test_event_record_after_input_mutation_non_escaping_removed_from_container_container_set_cuda",
+    "created_at": "2026-11-11T18:41:36Z",
+    "platforms": [
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
     "issue_number": 204369,
     "title": "DISABLED test_event_record_after_input_mutation_non_escaping_propagated_propagate_via_wait_stream_cuda (__main__.TestStreamsCUDA)",
     "test_name": "TestStreamsCUDA.test_event_record_after_input_mutation_non_escaping_propagated_propagate_via_wait_stream_cuda",
@@ -250,7 +336,7 @@
     ],
     "run_id": 42174746311,
     "job_id": 127758603908,
-    "state": "closed"
+    "state": "open"
   },
   {
     "issue_number": 203836,
@@ -819,7 +905,7 @@
     ],
     "run_id": 40541438718,
     "job_id": 122334609276,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 202322,
@@ -7159,94 +7245,5 @@
     "run_id": null,
     "job_id": null,
     "state": "closed"
-  },
-  {
-    "issue_number": 186873,
-    "title": "DISABLED test_mm_submatrix_offline_tunableop_cuda_float32 (__main__.TestLinalgCudaOnlyCUDA)",
-    "test_name": "TestLinalgCudaOnlyCUDA.test_mm_submatrix_offline_tunableop_cuda_float32",
-    "created_at": "2026-06-10T01:30:21Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186872,
-    "title": "DISABLED test_call_count_tunableop_cuda_float32 (__main__.TestLinalgCudaOnlyCUDA)",
-    "test_name": "TestLinalgCudaOnlyCUDA.test_call_count_tunableop_cuda_float32",
-    "created_at": "2026-06-10T01:30:18Z",
-    "platforms": [
-      "linux",
-      "rocm",
-      "slow"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "open"
-  },
-  {
-    "issue_number": 186871,
-    "title": "DISABLED test_addmm_relu_tunableop_rocm_cuda_float32 (__main__.TestLinalgCudaOnlyCUDA)",
-    "test_name": "TestLinalgCudaOnlyCUDA.test_addmm_relu_tunableop_rocm_cuda_float32",
-    "created_at": "2026-06-10T01:30:15Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186870,
-    "title": "DISABLED test_fake_device_guard_no_use_after_free_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_fake_device_guard_no_use_after_free_propagate_real_tensors",
-    "created_at": "2026-06-10T01:30:12Z",
-    "platforms": [
-      "rocm",
-      "linux"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186869,
-    "title": "DISABLED test_export_numpy_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_export_numpy_propagate_real_tensors",
-    "created_at": "2026-06-10T01:30:09Z",
-    "platforms": [
-      "linux",
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186868,
-    "title": "DISABLED test_LSTM_dropout_per_call_randomness_dropout_p_0_5_training_True_cuda (__main__.TestNNDeviceTypeCUDA)",
-    "test_name": "TestNNDeviceTypeCUDA.test_LSTM_dropout_per_call_randomness_dropout_p_0_5_training_True_cuda",
-    "created_at": "2026-06-10T01:30:06Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186867,
-    "title": "DISABLED test_group_norm_backward_large_input_float16_trigger_32bit_overflow_True_mps_float16 (__main__.TestConsistencyMPS)",
-    "test_name": "TestConsistencyMPS.test_group_norm_backward_large_input_float16_trigger_32bit_overflow_True_mps_float16",
-    "created_at": "2026-06-10T01:30:03Z",
-    "platforms": [
-      "mac",
-      "macos"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "open"
   }
 ]
