@@ -1,5 +1,53 @@
 [
   {
+    "issue_number": 204913,
+    "title": "DISABLED test_an_accepted_producer_with_an_assert_is_not_benchmarked_later (__main__.MultiTemplateFusionDecisionGpuTest)",
+    "test_name": "MultiTemplateFusionDecisionGpuTest.test_an_accepted_producer_with_an_assert_is_not_benchmarked_later",
+    "created_at": "2026-11-14T09:11:18Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43546051768,
+    "job_id": 132304825736,
+    "state": "open"
+  },
+  {
+    "issue_number": 204912,
+    "title": "DISABLED test_sparse_add_aliased_out_xpu_complex128 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_aliased_out_xpu_complex128",
+    "created_at": "2026-11-14T09:11:12Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43546051768,
+    "job_id": 132304825728,
+    "state": "open"
+  },
+  {
+    "issue_number": 204911,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_complex128 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_complex128",
+    "created_at": "2026-11-14T09:11:08Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43546051768,
+    "job_id": 132304825708,
+    "state": "open"
+  },
+  {
+    "issue_number": 204889,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_bfloat16 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_bfloat16",
+    "created_at": "2026-11-14T02:18:51Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 43491303360,
+    "job_id": 132128368297,
+    "state": "open"
+  },
+  {
     "issue_number": 204745,
     "title": "DISABLED test_fake_export_cuda_conj_cpu_float32 (__main__.TestExportOpInfoCPU)",
     "test_name": "TestExportOpInfoCPU.test_fake_export_cuda_conj_cpu_float32",
@@ -71,7 +119,7 @@
     ],
     "run_id": 43168527759,
     "job_id": 131024818280,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204469,
@@ -179,7 +227,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204186,
@@ -228,7 +276,7 @@
     ],
     "run_id": 42454749186,
     "job_id": 128656609948,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203928,
@@ -252,7 +300,7 @@
     ],
     "run_id": 42265220496,
     "job_id": 128070601676,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203873,
@@ -264,7 +312,7 @@
     ],
     "run_id": 42194485566,
     "job_id": 127825829073,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203842,
@@ -324,7 +372,7 @@
     ],
     "run_id": 42174746311,
     "job_id": 127758603830,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203837,
@@ -334,8 +382,8 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": 42174746311,
-    "job_id": 127758603908,
+    "run_id": 43546051768,
+    "job_id": 132304825732,
     "state": "open"
   },
   {
@@ -372,7 +420,7 @@
     ],
     "run_id": 42167861006,
     "job_id": 127735741520,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203787,
@@ -468,7 +516,7 @@
     ],
     "run_id": 41694281019,
     "job_id": 126137720626,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203336,
@@ -480,7 +528,7 @@
     ],
     "run_id": 41678022051,
     "job_id": 126078804351,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203331,
@@ -505,7 +553,7 @@
     ],
     "run_id": 41635671603,
     "job_id": 125927352661,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203197,
@@ -581,7 +629,7 @@
     ],
     "run_id": 41369509625,
     "job_id": 125042942184,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203017,
@@ -632,7 +680,7 @@
     ],
     "run_id": 41258184913,
     "job_id": 124711007582,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 202889,
@@ -644,7 +692,7 @@
     ],
     "run_id": 41163964523,
     "job_id": 124432447820,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 202877,
@@ -881,7 +929,7 @@
     ],
     "run_id": 40604791140,
     "job_id": 122551109206,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 202393,
@@ -929,7 +977,7 @@
     ],
     "run_id": 40468160857,
     "job_id": 122076618800,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 201996,
@@ -1329,7 +1377,7 @@
     ],
     "run_id": 37418898485,
     "job_id": 112129978851,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 200422,
@@ -1353,7 +1401,7 @@
     ],
     "run_id": 37264912558,
     "job_id": 111624963273,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 200403,
@@ -1684,7 +1732,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 199703,
@@ -1696,7 +1744,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 199702,
@@ -1756,7 +1804,7 @@
     ],
     "run_id": 36958087790,
     "job_id": 110691307119,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 199494,
@@ -2550,7 +2598,7 @@
     ],
     "run_id": 36218935159,
     "job_id": 108343930554,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 198709,
@@ -3685,8 +3733,8 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": 33735661477,
-    "job_id": 100593578894,
+    "run_id": 43546051768,
+    "job_id": 132304825765,
     "state": "open"
   },
   {
@@ -4057,7 +4105,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 195166,
@@ -4527,7 +4575,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 192283,
@@ -7192,55 +7240,6 @@
     "created_at": "2026-06-10T08:02:34Z",
     "platforms": [
       "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186908,
-    "title": "DISABLED test_nested_tensor_multiprocessing_context_forkserver_cuda (__main__.TestDataLoaderDeviceTypeCUDA)",
-    "test_name": "TestDataLoaderDeviceTypeCUDA.test_nested_tensor_multiprocessing_context_forkserver_cuda",
-    "created_at": "2026-06-10T08:02:31Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186907,
-    "title": "DISABLED test_generic_event_record_on_stream (__main__.TestGenericStreamCompile)",
-    "test_name": "TestGenericStreamCompile.test_generic_event_record_on_stream",
-    "created_at": "2026-06-10T08:02:28Z",
-    "platforms": [
-      "linux",
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186895,
-    "title": "DISABLED test_max_autotune_cutlass_backend_cpp_wrapper_bfloat16_num_gemms_2 (__main__.TestCutlassBackend)",
-    "test_name": "TestCutlassBackend.test_max_autotune_cutlass_backend_cpp_wrapper_bfloat16_num_gemms_2",
-    "created_at": "2026-06-10T05:27:43Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 186878,
-    "title": "DISABLED test_max_autotune_cutlass_backend_cpp_wrapper_float16_num_gemms_2 (__main__.TestCutlassBackend)",
-    "test_name": "TestCutlassBackend.test_max_autotune_cutlass_backend_cpp_wrapper_float16_num_gemms_2",
-    "created_at": "2026-06-10T02:27:50Z",
-    "platforms": [
-      "xpu"
     ],
     "run_id": null,
     "job_id": null,
