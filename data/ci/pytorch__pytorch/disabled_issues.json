@@ -1,5 +1,199 @@
 [
   {
+    "issue_number": 205484,
+    "title": "DISABLED test_event_handle_exporter_generic_event_xpu_event_xpu (__main__.TestXPUMultiprocessingXPU)",
+    "test_name": "TestXPUMultiprocessingXPU.test_event_handle_exporter_generic_event_xpu_event_xpu",
+    "created_at": "2026-11-18T07:15:43Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44211854210,
+    "job_id": 134501442422,
+    "state": "open"
+  },
+  {
+    "issue_number": 205483,
+    "title": "DISABLED test_round_robin_dispatch (__main__.ComboKernelBenchmarkTestsPerSubkernelBlocks)",
+    "test_name": "ComboKernelBenchmarkTestsPerSubkernelBlocks.test_round_robin_dispatch",
+    "created_at": "2026-11-18T07:15:17Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44211571236,
+    "job_id": 134501161512,
+    "state": "open"
+  },
+  {
+    "issue_number": 205482,
+    "title": "DISABLED test_sparse_add_xpu_float64 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_xpu_float64",
+    "created_at": "2026-11-18T07:15:14Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44211571236,
+    "job_id": 134501161272,
+    "state": "open"
+  },
+  {
+    "issue_number": 205481,
+    "title": "DISABLED test_sparse_add_xpu_complex64 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_xpu_complex64",
+    "created_at": "2026-11-18T07:15:11Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44211571236,
+    "job_id": 134501161272,
+    "state": "open"
+  },
+  {
+    "issue_number": 205480,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_int32 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_int32",
+    "created_at": "2026-11-18T07:14:46Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44209860618,
+    "job_id": 134495732586,
+    "state": "open"
+  },
+  {
+    "issue_number": 205479,
+    "title": "DISABLED test_sparse_add_aliased_out_xpu_float64 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_aliased_out_xpu_float64",
+    "created_at": "2026-11-18T07:14:43Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44209860618,
+    "job_id": 134495732569,
+    "state": "open"
+  },
+  {
+    "issue_number": 205475,
+    "title": "DISABLED test_event_record_after_input_mutation_non_escaping_generator_local_holder_cuda (__main__.TestStreamsCUDA)",
+    "test_name": "TestStreamsCUDA.test_event_record_after_input_mutation_non_escaping_generator_local_holder_cuda",
+    "created_at": "2026-11-18T06:44:34Z",
+    "platforms": [
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 205474,
+    "title": "DISABLED test_event_record_after_input_mutation_non_escaping_generator_finally_cuda (__main__.TestStreamsCUDA)",
+    "test_name": "TestStreamsCUDA.test_event_record_after_input_mutation_non_escaping_generator_finally_cuda",
+    "created_at": "2026-11-18T06:44:31Z",
+    "platforms": [
+      "linux",
+      "rocm"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 205424,
+    "title": "DISABLED test_svd_lowrank_cuda_complex128 (__main__.TestLinalgDeviceCUDA)",
+    "test_name": "TestLinalgDeviceCUDA.test_svd_lowrank_cuda_complex128",
+    "created_at": "2026-11-18T00:50:35Z",
+    "platforms": [
+      "linux",
+      "slow"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 205414,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_int16 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_int16",
+    "created_at": "2026-11-17T23:59:14Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44168303764,
+    "job_id": 134364080766,
+    "state": "open"
+  },
+  {
+    "issue_number": 205413,
+    "title": "DISABLED test_sparse_add_aliased_out_xpu_float32 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_aliased_out_xpu_float32",
+    "created_at": "2026-11-17T23:59:11Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44168303764,
+    "job_id": 134364080689,
+    "state": "open"
+  },
+  {
+    "issue_number": 205412,
+    "title": "DISABLED test_event_handle_exporter_generic_event_generic_event_xpu (__main__.TestXPUMultiprocessingXPU)",
+    "test_name": "TestXPUMultiprocessingXPU.test_event_handle_exporter_generic_event_generic_event_xpu",
+    "created_at": "2026-11-17T23:59:07Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44173676310,
+    "job_id": 134373901060,
+    "state": "open"
+  },
+  {
+    "issue_number": 205324,
+    "title": "DISABLED test_power_draw_returns_float (__main__.TestXpu)",
+    "test_name": "TestXpu.test_power_draw_returns_float",
+    "created_at": "2026-11-17T17:46:04Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44091928631,
+    "job_id": 134080472146,
+    "state": "open"
+  },
+  {
+    "issue_number": 205323,
+    "title": "DISABLED test_sparse_add_xpu_float32 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_xpu_float32",
+    "created_at": "2026-11-17T17:45:17Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44041800794,
+    "job_id": 133908642871,
+    "state": "open"
+  },
+  {
+    "issue_number": 205322,
+    "title": "DISABLED test_sparse_add_aliased_out_xpu_complex64 (__main__.TestSparseCSRDeviceXPU)",
+    "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_aliased_out_xpu_complex64",
+    "created_at": "2026-11-17T17:45:13Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44041800794,
+    "job_id": 133908642778,
+    "state": "open"
+  },
+  {
+    "issue_number": 205321,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_float64 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_float64",
+    "created_at": "2026-11-17T17:45:10Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44041800794,
+    "job_id": 133908642759,
+    "state": "open"
+  },
+  {
     "issue_number": 205267,
     "title": "DISABLED test_sparse_add_xpu_complex128 (__main__.TestSparseCSRDeviceXPU)",
     "test_name": "TestSparseCSRDeviceXPU.test_sparse_add_xpu_complex128",
@@ -178,7 +372,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205024,
@@ -384,7 +578,7 @@
     ],
     "run_id": 42879232821,
     "job_id": 130066094411,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204333,
@@ -408,7 +602,7 @@
     ],
     "run_id": 42755455333,
     "job_id": 129637265146,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204239,
@@ -420,7 +614,7 @@
     ],
     "run_id": 42748993065,
     "job_id": 129616681613,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204229,
@@ -746,7 +940,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203309,
@@ -895,9 +1089,9 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": 41163964523,
-    "job_id": 124432447820,
-    "state": "closed"
+    "run_id": 44031582432,
+    "job_id": 133875181339,
+    "state": "open"
   },
   {
     "issue_number": 202877,
@@ -957,7 +1151,7 @@
     ],
     "run_id": 41075276278,
     "job_id": 124143500276,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 202797,
@@ -1580,9 +1774,9 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": 37418898485,
-    "job_id": 112129978851,
-    "state": "closed"
+    "run_id": 44038208514,
+    "job_id": 133897294192,
+    "state": "open"
   },
   {
     "issue_number": 200422,
@@ -4553,7 +4747,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 194155,
@@ -4892,7 +5086,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 191620,
@@ -7030,7 +7224,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "closed"
+    "state": "open"
   },
   {
     "issue_number": 187203,
@@ -7051,205 +7245,6 @@
     "created_at": "2026-06-12T19:22:02Z",
     "platforms": [
       "linux"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "open"
-  },
-  {
-    "issue_number": 187181,
-    "title": "DISABLED test_autotune_int64_user_defined_triton_kernel_xpu (__main__.AOTInductorTestDualWrapper)",
-    "test_name": "AOTInductorTestDualWrapper.test_autotune_int64_user_defined_triton_kernel_xpu",
-    "created_at": "2026-06-12T14:08:48Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187176,
-    "title": "DISABLED test_functional_call (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
-    "test_name": "FuncTorchHigherOrderOpTestsWithCompiledAutograd.test_functional_call",
-    "created_at": "2026-06-12T13:45:38Z",
-    "platforms": [
-      "rocm",
-      "linux",
-      "slow"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187162,
-    "title": "DISABLED test_max_autotune_cutlass_backend_cpp_wrapper_float16_num_gemms_2 (__main__.TestCutlassBackend)",
-    "test_name": "TestCutlassBackend.test_max_autotune_cutlass_backend_cpp_wrapper_float16_num_gemms_2",
-    "created_at": "2026-06-12T08:56:36Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187157,
-    "title": "DISABLED test_fake_dispatch_keys_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_fake_dispatch_keys_propagate_real_tensors",
-    "created_at": "2026-06-12T08:10:27Z",
-    "platforms": [
-      "rocm",
-      "linux"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187156,
-    "title": "DISABLED test_load_with_map_location (__main__.TestCheckpointer)",
-    "test_name": "TestCheckpointer.test_load_with_map_location",
-    "created_at": "2026-06-12T08:10:24Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187127,
-    "title": "DISABLED test_aot_inductor_consts_cpp_build_xpu (__main__.AOTInductorTestDualWrapper)",
-    "test_name": "AOTInductorTestDualWrapper.test_aot_inductor_consts_cpp_build_xpu",
-    "created_at": "2026-06-12T01:42:57Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187125,
-    "title": "DISABLED test_aoti_profiler_enable_kernel_profile_True_enable_kernel_context_guard_True_xpu (__main__.AOTInductorTestDualWrapper)",
-    "test_name": "AOTInductorTestDualWrapper.test_aoti_profiler_enable_kernel_profile_True_enable_kernel_context_guard_True_xpu",
-    "created_at": "2026-06-12T01:42:34Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187124,
-    "title": "DISABLED test_aot_inductor_consts_cpp_build_xpu (__main__.AOTInductorTestDualWrapper)",
-    "test_name": "AOTInductorTestDualWrapper.test_aot_inductor_consts_cpp_build_xpu",
-    "created_at": "2026-06-12T01:41:27Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187123,
-    "title": "DISABLED test_aoti_constant_tensor_name_collision_xpu (__main__.AOTInductorTestDualWrapper)",
-    "test_name": "AOTInductorTestDualWrapper.test_aoti_constant_tensor_name_collision_xpu",
-    "created_at": "2026-06-12T01:40:33Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187122,
-    "title": "DISABLED test_dynamic_shapes_activations_no_autotune (__main__.ComboKernelDynamicShapesTestsPerSubkernelBlocks)",
-    "test_name": "ComboKernelDynamicShapesTestsPerSubkernelBlocks.test_dynamic_shapes_activations_no_autotune",
-    "created_at": "2026-06-12T01:39:58Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187121,
-    "title": "DISABLED test_amp_fallback_random_xpu (__main__.AOTInductorTestDualWrapper)",
-    "test_name": "AOTInductorTestDualWrapper.test_amp_fallback_random_xpu",
-    "created_at": "2026-06-12T01:39:22Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187120,
-    "title": "DISABLED test_dynamic_shapes_activations_no_autotune (__main__.ComboKernelDynamicShapesTestsPerSubkernelBlocks)",
-    "test_name": "ComboKernelDynamicShapesTestsPerSubkernelBlocks.test_dynamic_shapes_activations_no_autotune",
-    "created_at": "2026-06-12T01:38:57Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187119,
-    "title": "DISABLED test_kernel_metadata_has_expected_fields (__main__.TestMetadataJsonFormat)",
-    "test_name": "TestMetadataJsonFormat.test_kernel_metadata_has_expected_fields",
-    "created_at": "2026-06-12T01:36:23Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187046,
-    "title": "DISABLED test_tensor_with_unbacked_shape_closure (__main__.HigherOrderOpTestsWithCompiledAutograd)",
-    "test_name": "HigherOrderOpTestsWithCompiledAutograd.test_tensor_with_unbacked_shape_closure",
-    "created_at": "2026-06-11T14:00:33Z",
-    "platforms": [
-      "rocm",
-      "linux",
-      "slow"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187045,
-    "title": "DISABLED test_out_of_memory_retry (__main__.TestCuda)",
-    "test_name": "TestCuda.test_out_of_memory_retry",
-    "created_at": "2026-06-11T14:00:30Z",
-    "platforms": [
-      "linux",
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187044,
-    "title": "DISABLED test_out_of_memory_retry (__main__.TestCuda)",
-    "test_name": "TestCuda.test_out_of_memory_retry",
-    "created_at": "2026-06-11T14:00:27Z",
-    "platforms": [
-      "linux",
-      "rocm"
     ],
     "run_id": null,
     "job_id": null,
