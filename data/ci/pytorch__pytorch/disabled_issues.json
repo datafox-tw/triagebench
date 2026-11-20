@@ -1,5 +1,77 @@
 [
   {
+    "issue_number": 205805,
+    "title": "DISABLED test_comprehensive_special_bessel_y1_xpu_float64 (__main__.TestInductorOpInfoXPU)",
+    "test_name": "TestInductorOpInfoXPU.test_comprehensive_special_bessel_y1_xpu_float64",
+    "created_at": "2026-11-20T03:01:15Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44607890585,
+    "job_id": 135876809138,
+    "state": "open"
+  },
+  {
+    "issue_number": 205763,
+    "title": "DISABLED test_comprehensive_special_bessel_j1_xpu_float64 (__main__.TestInductorOpInfoXPU)",
+    "test_name": "TestInductorOpInfoXPU.test_comprehensive_special_bessel_j1_xpu_float64",
+    "created_at": "2026-11-19T21:52:43Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44570392118,
+    "job_id": 135738796561,
+    "state": "open"
+  },
+  {
+    "issue_number": 205762,
+    "title": "DISABLED test_comprehensive_special_bessel_j0_xpu_float64 (__main__.TestInductorOpInfoXPU)",
+    "test_name": "TestInductorOpInfoXPU.test_comprehensive_special_bessel_j0_xpu_float64",
+    "created_at": "2026-11-19T21:52:39Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44570392118,
+    "job_id": 135738796421,
+    "state": "open"
+  },
+  {
+    "issue_number": 205761,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_uint8 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_uint8",
+    "created_at": "2026-11-19T21:52:12Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44542916728,
+    "job_id": 135641307798,
+    "state": "open"
+  },
+  {
+    "issue_number": 205674,
+    "title": "DISABLED test_reinplacement_canonicalizes_philox_result (__main__.TestReinplacingPassCorrectness)",
+    "test_name": "TestReinplacingPassCorrectness.test_reinplacement_canonicalizes_philox_result",
+    "created_at": "2026-11-19T13:39:23Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44432610516,
+    "job_id": 135264297287,
+    "state": "open"
+  },
+  {
+    "issue_number": 205673,
+    "title": "DISABLED test_sparse_sparse_mul_xpu_int8 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_sparse_sparse_mul_xpu_int8",
+    "created_at": "2026-11-19T13:39:17Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44432610516,
+    "job_id": 135264297239,
+    "state": "open"
+  },
+  {
     "issue_number": 205642,
     "title": "DISABLED test_aliasing (__main__.ForeachTests)",
     "test_name": "ForeachTests.test_aliasing",
@@ -432,7 +504,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205058,
@@ -2237,9 +2309,9 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
+    "run_id": 44451106940,
+    "job_id": 135323077717,
+    "state": "open"
   },
   {
     "issue_number": 199693,
@@ -2273,9 +2345,9 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": 36958087790,
-    "job_id": 110691307119,
-    "state": "closed"
+    "run_id": 44432610516,
+    "job_id": 135264297285,
+    "state": "open"
   },
   {
     "issue_number": 199494,
@@ -5023,7 +5095,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 192316,
@@ -7166,83 +7238,6 @@
     "platforms": [
       "linux",
       "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187539,
-    "title": "DISABLED test_from_numpy_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_from_numpy_propagate_real_tensors",
-    "created_at": "2026-06-17T01:42:08Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187426,
-    "title": "DISABLED test_fast_div_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_fast_div_propagate_real_tensors",
-    "created_at": "2026-06-16T08:36:51Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187425,
-    "title": "DISABLED test_grad_closure_scalar (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
-    "test_name": "FuncTorchHigherOrderOpTestsWithCompiledAutograd.test_grad_closure_scalar",
-    "created_at": "2026-06-16T08:36:48Z",
-    "platforms": [
-      "rocm",
-      "linux"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187424,
-    "title": "DISABLED test_range_based_static_shape_no_cond_dispatch (__main__.TestCustomOpAutoTune)",
-    "test_name": "TestCustomOpAutoTune.test_range_based_static_shape_no_cond_dispatch",
-    "created_at": "2026-06-16T08:36:45Z",
-    "platforms": [
-      "linux",
-      "rocm",
-      "slow"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187403,
-    "title": "DISABLED test_fast_div_int_to_float_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_fast_div_int_to_float_propagate_real_tensors",
-    "created_at": "2026-06-16T01:42:56Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187378,
-    "title": "DISABLED test_grad_capture_tensor (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
-    "test_name": "FuncTorchHigherOrderOpTestsWithCompiledAutograd.test_grad_capture_tensor",
-    "created_at": "2026-06-15T19:57:28Z",
-    "platforms": [
-      "linux",
-      "rocm",
-      "slow"
     ],
     "run_id": null,
     "job_id": null,
