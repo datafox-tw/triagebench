@@ -1,5 +1,17 @@
 [
   {
+    "issue_number": 206088,
+    "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_avoid_modular_indexing_xpu (__main__.AvoidModularIndexingGPUTests)",
+    "test_name": "AvoidModularIndexingGPUTests.test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_avoid_modular_indexing_xpu",
+    "created_at": "2026-11-22T08:52:48Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 44986526752,
+    "job_id": 137107208628,
+    "state": "open"
+  },
+  {
     "issue_number": 205805,
     "title": "DISABLED test_comprehensive_special_bessel_y1_xpu_float64 (__main__.TestInductorOpInfoXPU)",
     "test_name": "TestInductorOpInfoXPU.test_comprehensive_special_bessel_y1_xpu_float64",
@@ -153,7 +165,7 @@
     ],
     "run_id": 44211854210,
     "job_id": 134501442422,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205483,
@@ -287,7 +299,7 @@
     ],
     "run_id": 44173676310,
     "job_id": 134373901060,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205324,
@@ -1932,7 +1944,7 @@
     ],
     "run_id": 37411490897,
     "job_id": 112106605789,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 200421,
@@ -3712,7 +3724,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 197453,
@@ -5339,7 +5351,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 191078,
@@ -7224,19 +7236,6 @@
       "linux",
       "mac",
       "macos",
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187561,
-    "title": "DISABLED test_view_ops (__main__.TestViewOpsWithLocalTensor)",
-    "test_name": "TestViewOpsWithLocalTensor.test_view_ops",
-    "created_at": "2026-06-17T08:37:24Z",
-    "platforms": [
-      "linux",
       "rocm"
     ],
     "run_id": null,
