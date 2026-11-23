@@ -1,5 +1,41 @@
 [
   {
+    "issue_number": 206263,
+    "title": "DISABLED test_blockwise_mxfp8_special_scales_M_31_xpu (__main__.TestFP8MatmulDeviceXPU)",
+    "test_name": "TestFP8MatmulDeviceXPU.test_blockwise_mxfp8_special_scales_M_31_xpu",
+    "created_at": "2026-11-23T12:15:26Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45141730734,
+    "job_id": 137590760369,
+    "state": "open"
+  },
+  {
+    "issue_number": 206176,
+    "title": "DISABLED test_blockwise_mxfp8_special_scales_M_2_xpu (__main__.TestFP8MatmulDeviceXPU)",
+    "test_name": "TestFP8MatmulDeviceXPU.test_blockwise_mxfp8_special_scales_M_2_xpu",
+    "created_at": "2026-11-23T02:58:13Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45077197622,
+    "job_id": 137386043207,
+    "state": "open"
+  },
+  {
+    "issue_number": 206152,
+    "title": "DISABLED test_blockwise_mxfp8_special_scales_M_128_xpu (__main__.TestFP8MatmulDeviceXPU)",
+    "test_name": "TestFP8MatmulDeviceXPU.test_blockwise_mxfp8_special_scales_M_128_xpu",
+    "created_at": "2026-11-22T22:26:17Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45046045131,
+    "job_id": 137286993191,
+    "state": "open"
+  },
+  {
     "issue_number": 206088,
     "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_avoid_modular_indexing_xpu (__main__.AvoidModularIndexingGPUTests)",
     "test_name": "AvoidModularIndexingGPUTests.test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_avoid_modular_indexing_xpu",
@@ -57,7 +93,7 @@
     ],
     "run_id": 44542916728,
     "job_id": 135641307798,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205674,
@@ -81,7 +117,7 @@
     ],
     "run_id": 44432610516,
     "job_id": 135264297239,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205642,
@@ -141,7 +177,7 @@
     ],
     "run_id": 44251739067,
     "job_id": 134632946607,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205509,
@@ -213,7 +249,7 @@
     ],
     "run_id": 44209860618,
     "job_id": 134495732586,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205479,
@@ -275,7 +311,7 @@
     ],
     "run_id": 44168303764,
     "job_id": 134364080766,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205413,
@@ -347,7 +383,7 @@
     ],
     "run_id": 44041800794,
     "job_id": 133908642759,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205267,
@@ -383,7 +419,7 @@
     ],
     "run_id": 44019910486,
     "job_id": 133834340824,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205207,
@@ -395,7 +431,7 @@
     ],
     "run_id": 43911637086,
     "job_id": 133473151969,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205206,
@@ -552,7 +588,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204913,
@@ -588,7 +624,7 @@
     ],
     "run_id": 43546051768,
     "job_id": 132304825708,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204889,
@@ -600,7 +636,7 @@
     ],
     "run_id": 43491303360,
     "job_id": 132128368297,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 204745,
@@ -915,7 +951,7 @@
     ],
     "run_id": 42183528343,
     "job_id": 127787704831,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203838,
@@ -3055,7 +3091,7 @@
     ],
     "run_id": 36507233367,
     "job_id": 109217061338,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 198997,
@@ -3067,7 +3103,7 @@
     ],
     "run_id": 36507233367,
     "job_id": 109217061338,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 198989,
@@ -5023,7 +5059,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 193002,
@@ -7196,46 +7232,6 @@
     "test_name": "PropagateRealTensorsFakeTensorTest.test_index_cuda_with_cpu_complex128_propagate_real_tensors",
     "created_at": "2026-06-18T01:36:40Z",
     "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187598,
-    "title": "DISABLED test_full_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_full_propagate_real_tensors",
-    "created_at": "2026-06-17T19:27:49Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187571,
-    "title": "DISABLED test_fsdp_flat_param_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_fsdp_flat_param_propagate_real_tensors",
-    "created_at": "2026-06-17T13:58:46Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187562,
-    "title": "DISABLED test_aoti_custom_op_bad_fake_dtype_fails_fast_cpu_with_stack_allocation (__main__.AOTInductorTestABICompatibleCpuWithStackAllocation)",
-    "test_name": "AOTInductorTestABICompatibleCpuWithStackAllocation.test_aoti_custom_op_bad_fake_dtype_fails_fast_cpu_with_stack_allocation",
-    "created_at": "2026-06-17T08:37:27Z",
-    "platforms": [
-      "asan",
-      "linux",
-      "mac",
-      "macos",
       "rocm"
     ],
     "run_id": null,
