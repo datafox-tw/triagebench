@@ -1,5 +1,42 @@
 [
   {
+    "issue_number": 206623,
+    "title": "DISABLED test_global_profiler_left_running_at_exit_stop_True (__main__.TestProfiler)",
+    "test_name": "TestProfiler.test_global_profiler_left_running_at_exit_stop_True",
+    "created_at": "2026-11-25T12:42:58Z",
+    "platforms": [
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 206577,
+    "title": "DISABLED test_module_dispatch_rechecks_before_honouring_an_opt_out (__main__.TestAOTCompile)",
+    "test_name": "TestAOTCompile.test_module_dispatch_rechecks_before_honouring_an_opt_out",
+    "created_at": "2026-11-25T06:47:00Z",
+    "platforms": [
+      "asan",
+      "linux"
+    ],
+    "run_id": null,
+    "job_id": null,
+    "state": "open"
+  },
+  {
+    "issue_number": 206522,
+    "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_dynamic_shapes (__main__.DynamicShapesGPUTestsXPU)",
+    "test_name": "DynamicShapesGPUTestsXPU.test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_dynamic_shapes",
+    "created_at": "2026-11-24T20:44:21Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45441497982,
+    "job_id": 138628572098,
+    "state": "open"
+  },
+  {
     "issue_number": 206263,
     "title": "DISABLED test_blockwise_mxfp8_special_scales_M_31_xpu (__main__.TestFP8MatmulDeviceXPU)",
     "test_name": "TestFP8MatmulDeviceXPU.test_blockwise_mxfp8_special_scales_M_31_xpu",
@@ -975,7 +1012,7 @@
     ],
     "run_id": 43546051768,
     "job_id": 132304825732,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203836,
@@ -3417,7 +3454,7 @@
     ],
     "run_id": 35674831489,
     "job_id": 106584361335,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 198152,
@@ -3958,7 +3995,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 196981,
@@ -5055,11 +5092,11 @@
     "test_name": "TestPartitionedScatterOpt.test_perf_atomic_contention",
     "created_at": "2026-08-12T13:01:43Z",
     "platforms": [
-      "linux"
+      "rocm"
     ],
     "run_id": null,
     "job_id": null,
-    "state": "closed"
+    "state": "open"
   },
   {
     "issue_number": 193002,
@@ -7197,42 +7234,6 @@
     "platforms": [
       "rocm",
       "linux"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187646,
-    "title": "DISABLED test_index_cuda_with_cpu_complex64_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_index_cuda_with_cpu_complex64_propagate_real_tensors",
-    "created_at": "2026-06-18T08:23:17Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187645,
-    "title": "DISABLED test_async_future_results (__main__.TestAsyncCheckpointerSpecific)",
-    "test_name": "TestAsyncCheckpointerSpecific.test_async_future_results",
-    "created_at": "2026-06-18T08:23:14Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187632,
-    "title": "DISABLED test_index_cuda_with_cpu_complex128_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_index_cuda_with_cpu_complex128_propagate_real_tensors",
-    "created_at": "2026-06-18T01:36:40Z",
-    "platforms": [
-      "rocm"
     ],
     "run_id": null,
     "job_id": null,
