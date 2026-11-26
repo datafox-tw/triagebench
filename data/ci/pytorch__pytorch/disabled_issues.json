@@ -1,5 +1,17 @@
 [
   {
+    "issue_number": 206729,
+    "title": "DISABLED test_comprehensive_nn_functional_adaptive_avg_pool1d_xpu_float16 (__main__.TestInductorOpInfoXPU)",
+    "test_name": "TestInductorOpInfoXPU.test_comprehensive_nn_functional_adaptive_avg_pool1d_xpu_float16",
+    "created_at": "2026-11-26T04:56:57Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45712429532,
+    "job_id": 139561328719,
+    "state": "open"
+  },
+  {
     "issue_number": 206623,
     "title": "DISABLED test_global_profiler_left_running_at_exit_stop_True (__main__.TestProfiler)",
     "test_name": "TestProfiler.test_global_profiler_left_running_at_exit_stop_True",
@@ -94,7 +106,7 @@
     ],
     "run_id": 44607890585,
     "job_id": 135876809138,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205763,
@@ -106,7 +118,7 @@
     ],
     "run_id": 44570392118,
     "job_id": 135738796561,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205762,
@@ -118,7 +130,7 @@
     ],
     "run_id": 44570392118,
     "job_id": 135738796421,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205761,
@@ -262,7 +274,7 @@
     ],
     "run_id": 44211571236,
     "job_id": 134501161272,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205481,
@@ -274,7 +286,7 @@
     ],
     "run_id": 44211571236,
     "job_id": 134501161272,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205480,
@@ -298,7 +310,7 @@
     ],
     "run_id": 44209860618,
     "job_id": 134495732569,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205475,
@@ -360,7 +372,7 @@
     ],
     "run_id": 44168303764,
     "job_id": 134364080689,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205412,
@@ -396,7 +408,7 @@
     ],
     "run_id": 44041800794,
     "job_id": 133908642871,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205322,
@@ -408,7 +420,7 @@
     ],
     "run_id": 44041800794,
     "job_id": 133908642778,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205321,
@@ -432,7 +444,7 @@
     ],
     "run_id": 44019910486,
     "job_id": 133834340954,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205266,
@@ -1010,9 +1022,9 @@
     "platforms": [
       "xpu"
     ],
-    "run_id": 43546051768,
-    "job_id": 132304825732,
-    "state": "closed"
+    "run_id": 45579611469,
+    "job_id": 139096677263,
+    "state": "open"
   },
   {
     "issue_number": 203836,
@@ -1677,7 +1689,7 @@
     ],
     "run_id": 40102459449,
     "job_id": 120904203230,
-    "state": "closed"
+    "state": "open"
   },
   {
     "issue_number": 201990,
@@ -7221,19 +7233,6 @@
     "created_at": "2026-06-19T01:47:15Z",
     "platforms": [
       "inductor"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187658,
-    "title": "DISABLED test_grad_non_tensor_input (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
-    "test_name": "FuncTorchHigherOrderOpTestsWithCompiledAutograd.test_grad_non_tensor_input",
-    "created_at": "2026-06-18T13:48:30Z",
-    "platforms": [
-      "rocm",
-      "linux"
     ],
     "run_id": null,
     "job_id": null,
