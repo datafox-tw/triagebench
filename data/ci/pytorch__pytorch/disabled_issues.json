@@ -1,5 +1,53 @@
 [
   {
+    "issue_number": 206915,
+    "title": "DISABLED test_dtypes_vdot_xpu (__main__.TestCommonXPU)",
+    "test_name": "TestCommonXPU.test_dtypes_vdot_xpu",
+    "created_at": "2026-11-27T15:27:15Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45968623055,
+    "job_id": 140414261998,
+    "state": "open"
+  },
+  {
+    "issue_number": 206914,
+    "title": "DISABLED test_dtypes_inner_xpu (__main__.TestCommonXPU)",
+    "test_name": "TestCommonXPU.test_dtypes_inner_xpu",
+    "created_at": "2026-11-27T15:27:11Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45968623055,
+    "job_id": 140414261998,
+    "state": "open"
+  },
+  {
+    "issue_number": 206913,
+    "title": "DISABLED test_dtypes_dot_xpu (__main__.TestCommonXPU)",
+    "test_name": "TestCommonXPU.test_dtypes_dot_xpu",
+    "created_at": "2026-11-27T15:27:07Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45968623055,
+    "job_id": 140414261998,
+    "state": "open"
+  },
+  {
+    "issue_number": 206912,
+    "title": "DISABLED test_coalesce_accepts_large_tensor_xpu_float32 (__main__.TestSparseXPU)",
+    "test_name": "TestSparseXPU.test_coalesce_accepts_large_tensor_xpu_float32",
+    "created_at": "2026-11-27T15:27:03Z",
+    "platforms": [
+      "xpu"
+    ],
+    "run_id": 45968623055,
+    "job_id": 140414261952,
+    "state": "open"
+  },
+  {
     "issue_number": 206860,
     "title": "DISABLED test_index_put_sorted_contiguous_size_one_stride_accumulate_True_xpu (__main__.TestIndexingDeviceXPU)",
     "test_name": "TestIndexingDeviceXPU.test_index_put_sorted_contiguous_size_one_stride_accumulate_True_xpu",
@@ -142,7 +190,7 @@
     ],
     "run_id": 45791483001,
     "job_id": 139822394781,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205763,
@@ -154,7 +202,7 @@
     ],
     "run_id": 45791483001,
     "job_id": 139822394878,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 205762,
@@ -1120,7 +1168,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 203738,
@@ -2480,7 +2528,7 @@
     ],
     "run_id": 44432610516,
     "job_id": 135264297285,
-    "state": "open"
+    "state": "closed"
   },
   {
     "issue_number": 199494,
@@ -5228,7 +5276,7 @@
     ],
     "run_id": null,
     "job_id": null,
-    "state": "closed"
+    "state": "open"
   },
   {
     "issue_number": 192316,
@@ -7181,55 +7229,6 @@
     "title": "DISABLED test_index_cuda_with_cpu_float8_e4m3fn_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
     "test_name": "PropagateRealTensorsFakeTensorTest.test_index_cuda_with_cpu_float8_e4m3fn_propagate_real_tensors",
     "created_at": "2026-06-22T14:32:57Z",
-    "platforms": [
-      "rocm"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187811,
-    "title": "DISABLED test_combo_kernel_dynamic_scale_rblock (__main__.ComboKernelTests)",
-    "test_name": "ComboKernelTests.test_combo_kernel_dynamic_scale_rblock",
-    "created_at": "2026-06-22T02:08:42Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187810,
-    "title": "DISABLED test_combo_kernel_dynamic_scale_rblock (__main__.ComboKernelTestsPerSubkernelBlocks)",
-    "test_name": "ComboKernelTestsPerSubkernelBlocks.test_combo_kernel_dynamic_scale_rblock",
-    "created_at": "2026-06-22T02:06:57Z",
-    "platforms": [
-      "xpu"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187738,
-    "title": "DISABLED test_grad_two_tensor_has_aux (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
-    "test_name": "FuncTorchHigherOrderOpTestsWithCompiledAutograd.test_grad_two_tensor_has_aux",
-    "created_at": "2026-06-19T19:15:11Z",
-    "platforms": [
-      "rocm",
-      "linux"
-    ],
-    "run_id": null,
-    "job_id": null,
-    "state": "closed"
-  },
-  {
-    "issue_number": 187725,
-    "title": "DISABLED test_index_cuda_with_cpu_float64_propagate_real_tensors (__main__.PropagateRealTensorsFakeTensorTest)",
-    "test_name": "PropagateRealTensorsFakeTensorTest.test_index_cuda_with_cpu_float64_propagate_real_tensors",
-    "created_at": "2026-06-19T13:51:59Z",
     "platforms": [
       "rocm"
     ],
